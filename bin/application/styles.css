@@ -1,0 +1,57 @@
+.top-bar {
+	-fx-background-color:#0a043c;
+}
+
+.button {
+	-fx-background-color: rgba(0,0,0,0);
+}
+.background-color {
+	-fx-background-color: #03506f;
+}
+.loginBG {
+	-fx-background-color:#F7F7F7;
+}
+.loginButton {
+	-fx-background-color:#E8E8E8;
+	-fx-border: 1;
+	-fx-border-color:gray;
+	-fx-border-radius:0;
+}
+.minCloseButtons:hover {
+	-fx-cursor:hand;
+}
+.mainBG {
+	-fx-background-color:#ECECEC;
+}
+.headerBG {
+	-fx-background-color:#E5E5E5;
+}
+
+.carAPane {
+	-fx-background-color: #E5E5E5;
+	-fx-border-color: #C9C9C9; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+
+}
+.carTextAPane {
+	-fx-background-color: #EAEAEA;
+	-fx-border-color: #DADADA; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+}
+.carRentButton {
+	-fx-background-color: #EF8221;
+	-fx-border-color: #D6D6D6; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+
+}
+.carOffButton {
+	-fx-background-color: #EAEAEA;
+	-fx-border-color: #D6D6D6; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+}
+
+.headerButton {
+	-fx-background-color: #EAEAEA;
+	-fx-border-color: #CECECE; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+}
