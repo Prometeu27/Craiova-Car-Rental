@@ -33,10 +33,13 @@
 	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
 
 }
-.carTextAPane {
-	-fx-background-color: #EAEAEA;
+.carRentTextPane {
+	-fx-background-color: #FFFFFF;
+	-fx-padding: 20px;
 	-fx-border-color: #DADADA; 
 	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+	-fx-border-radius: 25px;
+	-fx-background-radius:25px;
 }
 .carRentButton {
 	-fx-background-color: #EF8221;
@@ -54,4 +57,9 @@
 	-fx-background-color: #EAEAEA;
 	-fx-border-color: #CECECE; 
 	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+}
+.rentErrorShape{
+	-fx-background-color: red;
+	-fx-background-radius:5px;
+	-fx-opacity:0;
 }

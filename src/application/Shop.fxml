@@ -16,6 +16,15 @@
             <Button layoutX="221.0" layoutY="6.0" mnemonicParsing="false" onAction="#loadOffersShop" prefHeight="38.0" prefWidth="94.0" styleClass="headerButton" stylesheets="@styles.css" text="Offers" />
             <Button layoutX="324.0" layoutY="6.0" mnemonicParsing="false" onAction="#loadTermsShop" prefHeight="38.0" prefWidth="94.0" styleClass="headerButton" stylesheets="@styles.css" text="Terms" />
             <Button layoutX="118.0" layoutY="7.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="94.0" styleClass="headerButton" stylesheets="@styles.css" text="Shop" />
+            <Button layoutX="838.0" layoutY="6.0" mnemonicParsing="false" onAction="#loadCartShop" prefHeight="38.0" prefWidth="45.0">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cart.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
          </children></AnchorPane>
       <ImageView fitHeight="340.0" fitWidth="476.0" layoutX="212.0" layoutY="191.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
          <image>

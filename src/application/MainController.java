@@ -82,7 +82,6 @@ public class MainController implements Initializable{
 	}
 
 
-
 	// main 
 	@FXML
 	private void loadShopMain(ActionEvent event) throws Exception {
@@ -102,6 +101,11 @@ public class MainController implements Initializable{
 		mainPane.getChildren().setAll(termsPane);
 	}
 	
+	@FXML
+	private void loadCartMain(ActionEvent event) throws Exception {
+		AnchorPane cartPane = FXMLLoader.load(getClass().getResource("Cart.FXML"));
+		mainPane.getChildren().setAll(cartPane);
+	}
 
 	
 	//offers
@@ -123,6 +127,12 @@ public class MainController implements Initializable{
 		offersPane.getChildren().setAll(termsPane);
 	}
 	
+	@FXML
+	private void loadCartOffers(ActionEvent event) throws Exception {
+		AnchorPane cartPane = FXMLLoader.load(getClass().getResource("Cart.FXML"));
+		offersPane.getChildren().setAll(cartPane);
+	}
+	
 	//terms
 	@FXML
 	private void loadMainTerms(ActionEvent event) throws Exception {
@@ -140,5 +150,10 @@ public class MainController implements Initializable{
 	private void loadOffersTerms(ActionEvent event) throws Exception {
 		AnchorPane offersPane = FXMLLoader.load(getClass().getResource("Offers.FXML"));
 		termsPane.getChildren().setAll(offersPane);
+	}
+	@FXML
+	private void loadCartTerms(ActionEvent event) throws Exception {
+		AnchorPane cartPane = FXMLLoader.load(getClass().getResource("Cart.FXML"));
+		termsPane.getChildren().setAll(cartPane);
 	}
 }
