@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -20,7 +19,7 @@
                <graphic>
                   <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@cart.png" />
+                        <Image url="@images/cart.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -28,7 +27,7 @@
          </children></AnchorPane>
       <ImageView fitHeight="340.0" fitWidth="476.0" layoutX="212.0" layoutY="191.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@cars.png" />
+            <Image url="@images/cars.png" />
          </image>
       </ImageView>
       <AnchorPane layoutY="52.0" minHeight="0.0" minWidth="0.0" prefHeight="602.0" prefWidth="900.0">
@@ -37,7 +36,7 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/toyotaaygo.png" />
                      </image>
                   </ImageView>
                   <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
@@ -61,15 +60,15 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/renaultclio.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Renault Clio" textAlignment="CENTER" wrappingWidth="174.39999999999998">
                      <font>
                         <Font name="Arial Black" size="22.0" />
                      </font>
                   </Text>
-                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
                      <font>
                         <Font name="Cambria" size="22.0" />
                      </font>
@@ -85,15 +84,15 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/opelcorsa.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opel Corsa" textAlignment="CENTER" wrappingWidth="174.39999999999998">
                      <font>
                         <Font name="Arial Black" size="22.0" />
                      </font>
                   </Text>
-                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="63 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
                      <font>
                         <Font name="Cambria" size="22.0" />
                      </font>
@@ -109,10 +108,10 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/opelastra.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opel Astra" textAlignment="CENTER" wrappingWidth="174.39999999999998">
                      <font>
                         <Font name="Arial Black" size="22.0" />
                      </font>
@@ -122,7 +121,7 @@
                         <Font name="Cambria" size="22.0" />
                      </font>
                   </Text>
-                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn4" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -133,10 +132,10 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/opelmokka.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opel Mokka" textAlignment="CENTER" wrappingWidth="174.39999999999998">
                      <font>
                         <Font name="Arial Black" size="22.0" />
                      </font>
@@ -146,7 +145,7 @@
                         <Font name="Cambria" size="22.0" />
                      </font>
                   </Text>
-                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn8" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -157,10 +156,34 @@
                <children>
                   <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../01_mini_white.png" />
+                        <Image url="@images/skodaoctavia.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Aygo" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skoda Octavia" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn12" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="459.0" layoutY="213.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/opelinsignia.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opel Insignia" textAlignment="CENTER" wrappingWidth="174.39999999999998">
                      <font>
                         <Font name="Arial Black" size="22.0" />
                      </font>
@@ -170,16 +193,133 @@
                         <Font name="Cambria" size="22.0" />
                      </font>
                   </Text>
-                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn7" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
                      <font>
                         <Font size="16.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <Label fx:id="successLabel" layoutX="76.0" layoutY="239.0" text="Label" />
-            <Label fx:id="successLabel1" layoutX="76.0" layoutY="257.0" text="Label" />
-            <Label fx:id="successLabel2" layoutX="76.0" layoutY="283.0" text="Label" />
+            <AnchorPane layoutX="237.0" layoutY="213.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/nissanqashqai.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nissan Qashqai" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn6" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="213.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/nissanduke.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nissan Duke" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn5" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="408.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/opelvivaro.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opel Vivaro" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn9" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="237.0" layoutY="408.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="71.0" fitWidth="135.0" layoutX="46.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/mazdasedan.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mazda Sedan" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn10" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="459.0" layoutY="408.0" prefHeight="180.0" prefWidth="204.0" styleClass="carAPane" stylesheets="@styles.css">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="143.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/vwjetta.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="22.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VW Jetta" textAlignment="CENTER" wrappingWidth="174.39999999999998">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="6.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 € per day" textAlignment="CENTER" wrappingWidth="195.73665618896484">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#btn11" prefHeight="39.0" prefWidth="174.0" styleClass="carOffButton" stylesheets="@styles.css" text="View More!">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </children>

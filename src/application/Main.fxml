@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="mainBG" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="900.0" styleClass="mainBG" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
       <AnchorPane prefHeight="52.0" prefWidth="900.0" styleClass="headerBG" stylesheets="@styles.css">
          <children>
@@ -18,7 +19,7 @@
                <graphic>
                   <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@cart.png" />
+                        <Image url="@images/cart.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -26,12 +27,43 @@
          </children></AnchorPane>
       <ImageView fitHeight="340.0" fitWidth="476.0" layoutX="212.0" layoutY="191.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@cars.png" />
+            <Image url="@images/cars.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutY="52.0" prefHeight="648.0" prefWidth="900.0">
+      <AnchorPane layoutY="52.0" prefHeight="599.0" prefWidth="900.0">
          <children>
-            <Text layoutX="355.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAIN" />
+            <Label layoutX="237.0" layoutY="56.0" text="Welcome to ">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="149.0" fitWidth="272.0" layoutX="314.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/logoLogin.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="545.0" layoutY="177.0" text="App!">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="27.0" layoutY="254.0" opacity="0.69" prefHeight="200.0" prefWidth="845.0" styleClass="mainPane" stylesheets="@styles.css">
+               <children>
+                  <Label layoutX="70.0" layoutY="29.0" text="Some stuff about us:">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="60.0" prefHeight="18.0" prefWidth="766.0" text="We are relative new in business, we activate since 2018. At the moment, our only shop can be found in the city of Craiova, Dolj county, Romania." />
+                  <Label layoutX="34.0" layoutY="78.0" prefHeight="18.0" prefWidth="766.0" text="All of our cars are well maintained and relative new, the oldest ones were produced as late as 2016. " />
+                  <Label layoutX="34.0" layoutY="96.0" prefHeight="38.0" prefWidth="766.0" text="We are a professional team which is always ready to give you the car you need, at a right price, so that you will get the best deal there is. We guarantee you that you will find the best car you need in our fleet." wrapText="true" />
+                  <Label layoutX="34.0" layoutY="134.0" prefHeight="6.0" prefWidth="722.0" text="Our adress is: Florilor street, number 12, Craiova, Dolj county, Romania" />
+                  <Label layoutX="34.0" layoutY="152.0" prefHeight="18.0" prefWidth="722.0" text="For more info, call us! " />
+                  <Label layoutX="43.0" layoutY="170.0" text="0701.234.567" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="175.0" layoutY="509.0" opacity="0.71" prefHeight="52.0" prefWidth="282.0" styleClass="mainPane" stylesheets="@styles.css" />
+            <Label layoutX="188.0" layoutY="526.0" opacity="0.72" prefHeight="18.0" prefWidth="258.0" text="Proiect realizat de Cicic Marian Denis, grupa 223" />
          </children></AnchorPane>
    </children>
 </AnchorPane>

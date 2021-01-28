@@ -14,9 +14,14 @@
 
 <AnchorPane fx:id="rentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" styleClass="mainBG" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CarsViewController">
    <children>
-      <AnchorPane layoutX="291.0" layoutY="31.0" prefHeight="428.0" prefWidth="378.0" styleClass="carRentTextPane" stylesheets="@styles.css">
+      <AnchorPane layoutX="271.0" layoutY="28.0" prefHeight="428.0" prefWidth="382.0" styleClass="carRentTextPane" stylesheets="@styles.css">
          <children>
-            <GridPane fx:id="gridPane" layoutX="47.0" layoutY="42.0" prefHeight="324.0" prefWidth="282.0">
+            <Label fx:id="carNameLabel" layoutX="212.0" layoutY="46.0" prefHeight="27.0" prefWidth="156.0" text="Label">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <GridPane fx:id="gridPane" layoutX="41.0" layoutY="38.0" prefHeight="326.0" prefWidth="292.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="171.39999389648438" minWidth="10.0" prefWidth="166.4" />
                 <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.20001220703125" minWidth="10.0" prefWidth="116.80000000000004" />
@@ -67,11 +72,6 @@
                         <Font name="Calibri" size="22.0" />
                      </font>
                   </Label>
-                  <Label fx:id="carNameLabel" text="Label" GridPane.columnIndex="1">
-                     <font>
-                        <Font name="Arial Black" size="18.0" />
-                     </font>
-                  </Label>
                   <Label fx:id="productionYearLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Arial Black" size="18.0" />
@@ -114,19 +114,19 @@
                   </Label>
                </children>
             </GridPane>
-            <Line endX="73.199951171875" endY="149.0" layoutX="198.0" layoutY="14.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="17.600006103515625" endY="444.0000305175781" layoutX="188.0" layoutY="-78.0" startX="17.600006103515625" startY="119.99999237060547" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="198.0" layoutY="-68.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="198.0" layoutY="-25.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="199.0" layoutY="55.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="199.0" layoutY="95.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="198.0" layoutY="134.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
-            <Line endX="73.199951171875" endY="149.0" layoutX="200.0" layoutY="176.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="193.0" layoutY="14.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="17.600006103515625" endY="444.0000305175781" layoutX="183.0" layoutY="-78.0" startX="17.600006103515625" startY="119.99999237060547" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="193.0" layoutY="-68.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="193.0" layoutY="-25.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="194.0" layoutY="55.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="194.0" layoutY="95.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="193.0" layoutY="134.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
+            <Line endX="73.199951171875" endY="149.0" layoutX="195.0" layoutY="176.0" startX="-159.60000610351562" startY="149.0" stroke="#73737347" />
          </children>
       </AnchorPane>
-      <ImageView fx:id="rentPhoto" fitHeight="180.0" fitWidth="200.0" layoutX="52.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" styleClass="carTextAPane">
+      <ImageView fx:id="rentPhoto" fitHeight="180.0" fitWidth="200.0" layoutX="34.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" styleClass="carTextAPane">
          <image>
-            <Image url="@close.jpg" />
+            <Image url="@images/logoLogin.png" />
          </image>
       </ImageView>
       <Button fx:id="priceCheckButton" layoutX="167.0" layoutY="277.0" mnemonicParsing="false" onAction="#checkPrice" styleClass="carOffButton" stylesheets="@styles.css" text="Check price" />
@@ -137,7 +137,7 @@
       </Label>
       <Label layoutX="51.0" layoutY="282.0" prefHeight="18.0" prefWidth="21.0" text="For" />
       <AnchorPane fx:id="rentErrorShape" layoutX="72.0" layoutY="277.0" prefHeight="29.0" prefWidth="56.0" styleClass="rentErrorShape" stylesheets="@styles.css" />
-      <TextField fx:id="priceTextField" layoutX="73.0" layoutY="278.0" prefHeight="27.0" prefWidth="54.0" />
+      <TextField fx:id="daysToRentTextField" layoutX="73.0" layoutY="278.0" prefHeight="27.0" prefWidth="54.0" />
       <Label layoutX="134.0" layoutY="282.0" text="days" />
       <Label layoutX="35.0" layoutY="305.0" prefHeight="26.0" prefWidth="122.0" text="If you rent this car for " />
       <Label fx:id="daysRentedLabel" alignment="CENTER" layoutX="152.0" layoutY="309.0" text="-" />

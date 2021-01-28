@@ -63,3 +63,12 @@
 	-fx-background-radius:5px;
 	-fx-opacity:0;
 }
+.mainPane {
+	-fx-background-color: #FFFFFF;
+	-fx-padding: 20px;
+	-fx-border-color: #DADADA; 
+	-fx-border-width: 0.05em 0.05em 0.05em 0.05em;
+	-fx-border-radius: 100px;
+	-fx-background-radius:100px;
+}
+}

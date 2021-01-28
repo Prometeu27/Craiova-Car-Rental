@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="termsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="mainBG" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane fx:id="termsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="900.0" styleClass="mainBG" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
       <AnchorPane prefHeight="52.0" prefWidth="900.0" styleClass="headerBG" stylesheets="@styles.css">
          <children>
@@ -18,21 +21,37 @@
                <graphic>
                   <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@cart.png" />
+                        <Image url="@images/cart.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="340.0" fitWidth="476.0" layoutX="212.0" layoutY="191.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@cars.png" />
-         </image>
-      </ImageView>
       <AnchorPane layoutY="52.0" prefHeight="648.0" prefWidth="900.0">
          <children>
-            <Text layoutX="260.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TERMS" />
+            <ScrollPane layoutX="26.0" layoutY="49.0" prefHeight="518.0" prefWidth="848.0">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="782.0" prefWidth="846.0">
+                     <children>
+                        <Text layoutX="16.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) Rental Agreement. The contract is with us, the provider of the vehicle excess if the vehicle is damaged or stolen. Within Europe, our rates include as set out in the Location Specific Conditions, and you as named on the rental agreement.Please read the General Conditions of Rental and the Location Specific Conditions, both of which are part of your rental agreement." wrappingWidth="807.0856246948242" />
+                        <Text layoutX="16.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) The Vehicle. We must provide the vehicle and all mandatory safety licenced. Within Europe, we must provide vehicles with mandatory third party liability insurance. The driver is not a third party for these purposes and is not covered by this insurance.You must return the vehicle and optional extras in the same condition as provided, excepting fair wear and tear. Please check the vehicle thoroughly before you drive-away.Please ask us to rectify the vehicle condition report if there is any unrecorded damage; if the fuel levels are marked incorrectly; if the vehicle registration, insurance certificates, incident report form or any mandatory safety or security equipment is not present in the vehicle." wrappingWidth="805.4855270385742" />
+                        <Text layoutX="17.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) Rental Period. You are responsible for the vehicle and any optional a basic level of waiver and we will not charge you more than the stated excess plus taxes (if applicable and our damage- or theft- processing fee unless your excess does not apply. You can further reduce the excess by purchasing additional waivers.Your excess will not apply if the loss or damage is attributable to (i) your deliberate or fraudulent act, omission or gross negligence (to the extent that such terms are used under the applicable law) or (ii) a deliberate breach of sections 5 (Vehicle Use) and 6 (Accidents, Thefts and Damage).If your excess does not apply, we will be entitled to claim losses or damages against you in an amount equal to the severity of the negligence up to the full amount of the damage or loss we have incurred or will incur (whichever is the greater), to the extent allowed under applicable law." wrappingWidth="803.0855026245117" />
+                        <Text layoutX="14.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Vehicle Use: You must: (i) exercise all reasonable care and skill when using the vehicle, (ii) use the vehicle according to the laws of the country in which you are driving, (iii) use the vehicle in a lawful manner and for lawful purposes, (iv) use the correct fuel, (v) lock the vehicle when you are not using it and ensure that all windows, roof openings, removable roof panels or hood are properly closed, (vi) stop using the vehicle immediately, if safe to do so, and notify us soon as you become aware of a fault with the vehicle. You must not: (i) use the vehicle for any commercial purposes; for any motorsport (recreational or professional) or a related activity; off-road; tow another vehicle or trailer; transport flammable, explosive, corrosive or combustive materials, except for mineral essence oils or similar products as permitted by applicable law (or as set out in the Location Specific Conditions) and fuel or gas necessary for the operation of the vehicle; (ii) allow any person other than an authorised driver to use the vehicle. You may only drive in the countries permitted by us. If you drive a vehicle having an EU member state registration outside the EU or a vehicle with a non-EU member state registration into an EU member state, you must not use the vehicle in the foreign country for longer than is allowed according to the applicable laws. Please see the Location Specific Conditions, ask the rental agent for more details or consult the relevant customs authorities." wrappingWidth="812.6854782104492" />
+                        <Text layoutX="14.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Costs. You must pay the amounts on the rental agreement for the vehicle and for any optional extras for the rental period. You must pay for any extensions to the rental period, including for optional extras that you agreed to. You must pay for theft and damage costs,specialist-cleaning charges, towing fees, toll charges, parking, traffic or other fines and charges and related administration and processing fees, if due in accordance with these terms and conditions." wrappingWidth="797.4855270385742" />
+                        <Text layoutX="14.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) Accidents, Theft and Damage. You must notify (i) the police immediately and (ii) us within 48 hours, if the vehicle has been involved in an accident or damage event, even if no third party was involved. If the vehicle is lost, stolen or damaged you must, to the extent the law allows, pay the excess stated in this rental agreement, any taxes and our damage- or theft-processing fee (unless you have purchased additional waivers to further reduce your excess). Your excess will not apply in the circumstances set out in section 7 on Waivers. You are not liable for any loss or damage charges to the extent attributable to our failure to maintain the vehicle or covered under a manufacturer warranty." wrappingWidth="808.6854782104492" />
+                        <Text layoutX="14.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7) Waivers. Waivers reduce the amount you have to pay to the stated excess if the vehicle is damaged or stolen. Within Europe, our rates include basic level of waiver and we will not charge you more than the stated excess plus taxes (if applicable and our damage- or theft- processing fee unless your excess does not apply. You can further reduce the excess by purchasing additional waivers.Your excess will not apply if the loss or damage is attributable to (i) your deliberate or fraudulent act, omission or gross negligence (to the extent that such terms are used under the applicable law) or (ii) a deliberate breach of sections 5 (Vehicle Use) and 6 (Accidents, Thefts and Damage).If your excess does not apply, we will be entitled to claim losses or damages against you in an amount equal to the severity of the negligence up to the full amount of the damage or loss we have incurred or will incur (whichever is the greater), to the extent allowed under applicable law." wrappingWidth="818.2855758666991" />
+                        <Text layoutX="14.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8) Lost Property. We will do our best to contact you if we find any personal belongings in the vehicle. Any items containing personal or financial information will be disposed of within 28 days in accordance with our privacy policies and the General Conditions of Rental. All other items will be disposed of within 3 months." wrappingWidth="818.4" />
+                        <Text layoutX="14.0" layoutY="741.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9) Applicable law. The applicable law governing the contract between you and us will be the law applicable in the country where you picked up the vehicle and where the rental agreement was entered into." wrappingWidth="811.0855026245117" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="38.0" layoutY="14.0" text="Terms &amp; Conditions">
+               <font>
+                  <Font name="Arial Black" size="17.0" />
+               </font>
+            </Label>
          </children></AnchorPane>
    </children>
 </AnchorPane>

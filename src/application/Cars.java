@@ -3,14 +3,14 @@ package application;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.scene.image.Image;
 
-public class Cars {
+public class Cars { // clasa care contine masinile din 'shop'
 
 	private SimpleStringProperty carName, colors;
-	private int productionYear, horsePower, topSpeed, doors, seats, price, stock, bought;
+	private int productionYear, horsePower, topSpeed, doors, seats, price, stock;
 	private Image photo;
 	
 	public Cars(String carName, String colors, int productionYear, int horsePower,
-			int topSpeed, int doors, int seats, int price, int stock, int bought) {
+			int topSpeed, int doors, int seats, int price, int stock) {
 		this.carName = new SimpleStringProperty(carName);
 		this.colors = new SimpleStringProperty(colors);
 		this.productionYear = productionYear;
@@ -21,11 +21,10 @@ public class Cars {
 		photo = new Image("/application/logologin.png");
 		this.price = price;
 		this.stock = stock;
-		this.bought = bought;
 	}
 
 	public Cars(String carName, String colors, int productionYear, int horsePower,
-			int topSpeed, int doors, int seats, Image photo, int price, int stock, int bought) {
+			int topSpeed, int doors, int seats, Image photo, int price, int stock) {
 		this.carName = new SimpleStringProperty(carName);
 		this.colors = new SimpleStringProperty(colors);
 		this.productionYear = productionYear;
@@ -36,15 +35,6 @@ public class Cars {
 		this.photo = photo;
 		this.price = price;
 		this.stock = stock;
-		this.bought = bought;
-		
-	}
-	public int getBought() {
-		return bought;
-	}
-
-	public void setBought(int bought) {
-		this.bought = bought;
 	}
 
 	public Image getImage() {
